@@ -1,4 +1,21 @@
-body {
+[20:54, 6/9/2025] César Sánchez R.: <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evalúa tu Sonrisa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Evalúa tu Sonrisa</h1>
+        <p>Esta herramienta te ayudará a identificar posibles signos de que podrías necesitar ortodoncia. Recuerda, no reemplaza la opinión de un profesional.</p>
+        <button id="start-button">Comenzar Evaluación</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+[20:55, 6/9/2025] César Sánchez R.: body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
@@ -15,15 +32,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    max-width: 600px;
-    width: 90%;
 }
 
 h1 {
     color: #007BFF;
 }
 
-button {
+#start-button {
     background-color: #007BFF;
     color: white;
     padding: 10px 20px;
@@ -34,53 +49,19 @@ button {
     margin-top: 20px;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
 .appointment-button {
     background-color: #28a745;
-    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none; /* Esto quita el subrayado del enlace */
     display: inline-block;
+    margin-top: 20px;
 }
 
 .appointment-button:hover {
     background-color: #218838;
-}
-
-.analysis-result {
-    text-align: left;
-    margin-top: 20px;
-}
-
-.analysis-result h3 {
-    color: #333;
-    border-bottom: 2px solid #007BFF;
-    padding-bottom: 5px;
-}
-
-.analysis-result p {
-    margin: 10px 0;
-}
-
-.malocclusion-option {
-    margin-bottom: 20px;
-}
-
-.malocclusion-option img {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.2s, border-color 0.2s;
-}
-
-.malocclusion-option img:hover {
-    transform: scale(1.05);
-    border-color: #007BFF;
-}
-
-.malocclusion-option button {
-    margin-top: 10px;
 }
